@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonPrimary.FirebaseAuthRedux.Theme" parent="TextAppearance.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/design_default_color_on_primary</item>
+        <item name="cornerRadius">@dimen/corner_8dp</item>
+        <item name="layout_constraintWidth_percent">0.85</item>
+    </style>
+
+
+    <style name="TextInputLayout.FirebaseAuthRedux.Theme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/corner_8dp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_8dp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_8dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_8dp</item>    </style>
+</resources>

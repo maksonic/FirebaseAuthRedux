@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph"
+    app:startDestination="@id/authScreen">
+
+    <fragment
+        android:id="@+id/authScreen"
+        android:name="com.maksonic.firebaseauthredux.presentation.screen.auth.AuthScreen"
+        android:label="AuthScreen" >
+        <action
+            android:id="@+id/action_authScreen_to_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.maksonic.firebaseauthredux.presentation.screen.main.MainScreen"
+        android:label="MainScreen" />
+</navigation>
