@@ -1,2 +1,2 @@
 # FirebaseAuthRedux
-Sample firebase auth with email and password with redux architecture
+Firebase auth with email and password sample using redux architecture
